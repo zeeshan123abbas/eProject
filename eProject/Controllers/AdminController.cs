@@ -6,6 +6,7 @@ namespace eProject.Controllers
     {
         public IActionResult Index()
         {
+            var data = 10;
             return View();
         }
     }
